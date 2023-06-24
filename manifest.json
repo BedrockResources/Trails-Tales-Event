@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Trails & Tales Event",
+        "description": "Assets for the Trails & Tales Event",
+        "uuid": "10b1a1a4-5973-4061-b450-1023dce95061",
+        "version": [0, 0, 18],
+        "min_engine_version": [1, 20, 0]
+    },
+    "modules": [
+        {
+            "description": "TrailsAndTalesLiveEvent",
+            "type": "resources",
+            "uuid": "272103b9-1a05-441f-8f81-7b1e88df6e89",
+            "version": [0, 0, 18]
+        }
+    ]
+}

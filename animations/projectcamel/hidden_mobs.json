@@ -1,0 +1,18 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.projectcamel.hidden.mobs.float": {
+            "loop": true,
+            "bones": {
+                "root": {
+                    "rotation": [
+                        "math.cos(query.anim_time * 12) * 5",
+                        "math.cos(query.anim_time * 30) * 20",
+                        "math.cos(query.anim_time * 14) * 3"
+                    ],
+                    "position": [0, "4 + (math.cos(query.anim_time * 60) * 2) ", 0]
+                }
+            }
+        }
+    }
+}

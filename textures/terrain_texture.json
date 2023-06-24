@@ -1,0 +1,584 @@
+{
+  "resource_pack_name": "projectcamel",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "camel:stacked_ancient_popcorn": {
+      "textures": "textures/blocks/projectcamel/stacked_ancient_popcorn"
+    },
+    "camel:spilled_ancient_popcorn": {
+      "textures": "textures/blocks/projectcamel/spilled_ancient_popcorn"
+    },
+    "camel:prepared_cherry_tree_boba": {
+      "textures": "textures/blocks/projectcamel/prepared_cherry_tree_boba"
+    },
+    "camel:parkour_side": {
+      "textures": "textures/blocks/projectcamel/parkour_side"
+    },
+    "camel:parkour_start": {
+      "textures": "textures/blocks/projectcamel/parkour_start"
+    },
+    "camel:parkour_start_corner": {
+      "textures": "textures/blocks/projectcamel/parkour_start_corner"
+    },
+    "camel:parkour_finish": {
+      "textures": "textures/blocks/projectcamel/parkour_finish"
+    },
+    "camel:parkour_finish_corner": {
+      "textures": "textures/blocks/projectcamel/parkour_finish_corner"
+    },
+    "projectcamel:stacked_ancient_popcorn": {
+      "textures": "textures/blocks/projectcamel/stacked_ancient_popcorn"
+    },
+    "projectcamel:ancient_popcorn": {
+      "textures": "textures/blocks/projectcamel/ancient_popcorn"
+    },
+    "projectcamel:cherry_tree_boba": {
+      "textures": "textures/blocks/projectcamel/cherry_tree_boba"
+    },
+    "projectcamel:sniffer_plushie": {
+      "textures": "textures/blocks/projectcamel/sniffer_plushie"
+    },
+    "projectcamel:camel_plushie": {
+      "textures": "textures/blocks/projectcamel/camel_plushie"
+    },
+    "projectcamel:camel_mask_display": {
+      "textures": "textures/blocks/projectcamel/camel_mask_display"
+    },
+    "projectcamel:sniffer_mask_display": {
+      "textures": "textures/blocks/projectcamel/sniffer_mask_display"
+    },
+    "projectcamel:sniffer_hat_display": {
+      "textures": "textures/blocks/projectcamel/sniffer_hat_display"
+    },
+    "projectcamel:camel_hat_display": {
+      "textures": "textures/blocks/projectcamel/camel_hat_display"
+    },
+    "projectcamel:cactus_cola": {
+      "textures": "textures/blocks/projectcamel/cactus_cola"
+    },
+    "projectcamel:panda_mask_display": {
+      "textures": "textures/blocks/projectcamel/panda_mask_display"
+    },
+    "projectcamel:panda_plush": {
+      "textures": "textures/blocks/projectcamel/panda_plush"
+    },
+    "projectcamel:torchflower_tea": {
+      "textures": "textures/blocks/projectcamel/torchflower_tea"
+    },
+    "projectcamel:holo_finish_line": {
+      "textures": "textures/blocks/projectcamel/holo_finish_line"
+    },
+    "projectcamel:finish_line_tiles": {
+      "textures": "textures/blocks/projectcamel/finish_line_tiles"
+    },
+    "projectcamel:cyan_park_banner": {
+      "textures": "textures/blocks/projectcamel/cyan_park_banner"
+    },
+    "projectcamel:yellow_park_banner": {
+      "textures": "textures/blocks/projectcamel/yellow_park_banner"
+    },
+    "projectcamel:magenta_park_banner": {
+      "textures": "textures/blocks/projectcamel/magenta_park_banner"
+    },
+    "projectcamel:orange_park_banner": {
+      "textures": "textures/blocks/projectcamel/orange_park_banner"
+    },
+    "projectcamel:lime_park_banner": {
+      "textures": "textures/blocks/projectcamel/lime_park_banner"
+    },
+    "projectcamel:light_blue_park_banner": {
+      "textures": "textures/blocks/projectcamel/light_blue_park_banner"
+    },
+    "projectcamel:green_park_banner": {
+      "textures": "textures/blocks/projectcamel/green_park_banner"
+    },
+    "projectcamel:brown_park_banner": {
+      "textures": "textures/blocks/projectcamel/brown_park_banner"
+    },
+    "projectcamel:red_park_banner": {
+      "textures": "textures/blocks/projectcamel/red_park_banner"
+    },
+    "projectcamel:pink_park_banner": {
+      "textures": "textures/blocks/projectcamel/pink_park_banner"
+    },
+    "projectcamel:white_park_banner": {
+      "textures": "textures/blocks/projectcamel/white_park_banner"
+    },
+    "projectcamel:blue_park_banner": {
+      "textures": "textures/blocks/projectcamel/blue_park_banner"
+    },
+    "projectcamel:purple_park_banner": {
+      "textures": "textures/blocks/projectcamel/purple_park_banner"
+    },
+    "projectcamel:cherry_hat_display": {
+      "textures": "textures/blocks/projectcamel/cherry_hat_display"
+    },
+    "projectcamel:candy_apples": {
+      "textures": "textures/blocks/projectcamel/candy_apples"
+    },
+    "projectcamel:sniffer_snout_popsicles": {
+      "textures": "textures/blocks/projectcamel/sniffer_snout_popsicles"
+    },
+    "projectcamel:boba_dispenser": {
+      "textures": "textures/blocks/projectcamel/boba_dispenser"
+    },
+    "projectcamel:cactus_dispenser": {
+      "textures": "textures/blocks/projectcamel/cactus_dispenser"
+    },
+    "projectcamel:torchflower_dispenser": {
+      "textures": "textures/blocks/projectcamel/torchflower_dispenser"
+    },
+    "projectcamel:digsite_duster_2": {
+      "textures": "textures/blocks/projectcamel/digsite_duster_2"
+    },
+    "projectcamel:digsite_duster_3": {
+      "textures": "textures/blocks/projectcamel/digsite_duster_3"
+    },
+    "projectcamel:digsite_duster_6": {
+      "textures": "textures/blocks/projectcamel/digsite_duster_6"
+    },
+    "projectcamel:digsite_duster_4": {
+      "textures": "textures/blocks/projectcamel/digsite_duster_4"
+    },
+    "projectcamel:digsite_duster_1": {
+      "textures": "textures/blocks/projectcamel/digsite_duster_1"
+    },
+    "projectcamel:digsite_duster_5": {
+      "textures": "textures/blocks/projectcamel/digsite_duster_5"
+    },
+    "projectcamel:river_raft_racers_6": {
+      "textures": "textures/blocks/projectcamel/river_raft_racers_6"
+    },
+    "projectcamel:river_raft_racers_5": {
+      "textures": "textures/blocks/projectcamel/river_raft_racers_5"
+    },
+    "projectcamel:river_raft_racers_2": {
+      "textures": "textures/blocks/projectcamel/river_raft_racers_2"
+    },
+    "projectcamel:river_raft_racers_4": {
+      "textures": "textures/blocks/projectcamel/river_raft_racers_4"
+    },
+    "projectcamel:river_raft_racers_3": {
+      "textures": "textures/blocks/projectcamel/river_raft_racers_3"
+    },
+    "projectcamel:river_raft_racers_1": {
+      "textures": "textures/blocks/projectcamel/river_raft_racers_1"
+    },
+    "projectcamel:desert_dash_0": {
+      "textures": "textures/blocks/projectcamel/desert_dash_0"
+    },
+    "projectcamel:desert_dash_3": {
+      "textures": "textures/blocks/projectcamel/desert_dash_3"
+    },
+    "projectcamel:desert_dash_2": {
+      "textures": "textures/blocks/projectcamel/desert_dash_2"
+    },
+    "projectcamel:desert_dash_4": {
+      "textures": "textures/blocks/projectcamel/desert_dash_4"
+    },
+    "projectcamel:desert_dash_6": {
+      "textures": "textures/blocks/projectcamel/desert_dash_6"
+    },
+    "projectcamel:desert_dash_5": {
+      "textures": "textures/blocks/projectcamel/desert_dash_5"
+    },
+    "projectcamel:desert_dash_1": {
+      "textures": "textures/blocks/projectcamel/desert_dash_1"
+    },
+    "projectcamel:parkour_finish_up_down": {
+      "textures": "textures/blocks/projectcamel/parkour_finish_up_down"
+    },
+    "projectcamel:parkour_finish": {
+      "textures": "textures/blocks/projectcamel/parkour_finish"
+    },
+    "projectcamel:parkour_start_up_down": {
+      "textures": "textures/blocks/projectcamel/parkour_start_up_down"
+    },
+    "projectcamel:parkour_start": {
+      "textures": "textures/blocks/projectcamel/parkour_start"
+    },
+    "projectcamel:parkour_checkpoint_up_down": {
+      "textures": "textures/blocks/projectcamel/parkour_checkpoint_up_down"
+    },
+    "projectcamel:parkour_checkpoint": {
+      "textures": "textures/blocks/projectcamel/parkour_checkpoint"
+    },
+    "projectcamel:parkour_start_corner_up_down": {
+      "textures": "textures/blocks/projectcamel/parkour_start_corner_up_down"
+    },
+    "projectcamel:parkour_start_corner": {
+      "textures": "textures/blocks/projectcamel/parkour_start_corner"
+    },
+    "projectcamel:parkour_finish_corner_up_down": {
+      "textures": "textures/blocks/projectcamel/parkour_finish_corner_up_down"
+    },
+    "projectcamel:parkour_finish_corner": {
+      "textures": "textures/blocks/projectcamel/parkour_finish_corner"
+    },
+    "projectcamel:parkour_checkpoint_corner_up_down": {
+      "textures": "textures/blocks/projectcamel/parkour_checkpoint_corner_up_down"
+    },
+    "projectcamel:parkour_checkpoint_corner": {
+      "textures": "textures/blocks/projectcamel/parkour_checkpoint_corner"
+    },
+    "projectcamel:invisible": {
+      "textures": "textures/blocks/projectcamel/invisible"
+    },
+    "projectcamel:thin_barrier": {
+      "textures": "textures/blocks/projectcamel/thin_barrier"
+    },
+    "projectcamel:food_dark_oak_2_up_down_north_east_west": {
+      "textures": "textures/blocks/projectcamel/food_dark_oak_2_up_down_north_east_west"
+    },
+    "projectcamel:food_dark_oak_2": {
+      "textures": "textures/blocks/projectcamel/food_dark_oak_2"
+    },
+    "projectcamel:food_dark_oak_1_up_down_north_east_west": {
+      "textures": "textures/blocks/projectcamel/food_dark_oak_1_up_down_north_east_west"
+    },
+    "projectcamel:food_dark_oak_1": {
+      "textures": "textures/blocks/projectcamel/food_dark_oak_1"
+    },
+    "projectcamel:food_dark_oak_3_up_down_north_east_west": {
+      "textures": "textures/blocks/projectcamel/food_dark_oak_3_up_down_north_east_west"
+    },
+    "projectcamel:food_dark_oak_3": {
+      "textures": "textures/blocks/projectcamel/food_dark_oak_3"
+    },
+    "projectcamel:merch_dark_oak_2_up_down_north_east_west": {
+      "textures": "textures/blocks/projectcamel/merch_dark_oak_2_up_down_north_east_west"
+    },
+    "projectcamel:merch_dark_oak_2": {
+      "textures": "textures/blocks/projectcamel/merch_dark_oak_2"
+    },
+    "projectcamel:merch_dark_oak_1_up_down_north_east_west": {
+      "textures": "textures/blocks/projectcamel/merch_dark_oak_1_up_down_north_east_west"
+    },
+    "projectcamel:merch_dark_oak_1": {
+      "textures": "textures/blocks/projectcamel/merch_dark_oak_1"
+    },
+    "projectcamel:merch_dark_oak_3_up_down_north_east_west": {
+      "textures": "textures/blocks/projectcamel/merch_dark_oak_3_up_down_north_east_west"
+    },
+    "projectcamel:merch_dark_oak_3": {
+      "textures": "textures/blocks/projectcamel/merch_dark_oak_3"
+    },
+    "projectcamel:food_bamboo_2_east_west": {
+      "textures": "textures/blocks/projectcamel/food_bamboo_2_east_west"
+    },
+    "projectcamel:food_bamboo_2_north": {
+      "textures": "textures/blocks/projectcamel/food_bamboo_2_north"
+    },
+    "projectcamel:food_bamboo_2_up_down": {
+      "textures": "textures/blocks/projectcamel/food_bamboo_2_up_down"
+    },
+    "projectcamel:food_bamboo_2": {
+      "textures": "textures/blocks/projectcamel/food_bamboo_2"
+    },
+    "projectcamel:food_bamboo_1_east_west": {
+      "textures": "textures/blocks/projectcamel/food_bamboo_1_east_west"
+    },
+    "projectcamel:food_bamboo_1_up_down": {
+      "textures": "textures/blocks/projectcamel/food_bamboo_1_up_down"
+    },
+    "projectcamel:food_bamboo_1_north": {
+      "textures": "textures/blocks/projectcamel/food_bamboo_1_north"
+    },
+    "projectcamel:food_bamboo_1": {
+      "textures": "textures/blocks/projectcamel/food_bamboo_1"
+    },
+    "projectcamel:merch_bamboo_1_north": {
+      "textures": "textures/blocks/projectcamel/merch_bamboo_1_north"
+    },
+    "projectcamel:merch_bamboo_1_east_west": {
+      "textures": "textures/blocks/projectcamel/merch_bamboo_1_east_west"
+    },
+    "projectcamel:merch_bamboo_1_up_down": {
+      "textures": "textures/blocks/projectcamel/merch_bamboo_1_up_down"
+    },
+    "projectcamel:merch_bamboo_1": {
+      "textures": "textures/blocks/projectcamel/merch_bamboo_1"
+    },
+    "projectcamel:food_bamboo_3_east_west": {
+      "textures": "textures/blocks/projectcamel/food_bamboo_3_east_west"
+    },
+    "projectcamel:food_bamboo_3_north": {
+      "textures": "textures/blocks/projectcamel/food_bamboo_3_north"
+    },
+    "projectcamel:food_bamboo_3_up_down": {
+      "textures": "textures/blocks/projectcamel/food_bamboo_3_up_down"
+    },
+    "projectcamel:food_bamboo_3": {
+      "textures": "textures/blocks/projectcamel/food_bamboo_3"
+    },
+    "projectcamel:merch_bamboo_2_east_west": {
+      "textures": "textures/blocks/projectcamel/merch_bamboo_2_east_west"
+    },
+    "projectcamel:merch_bamboo_2_up_down": {
+      "textures": "textures/blocks/projectcamel/merch_bamboo_2_up_down"
+    },
+    "projectcamel:merch_bamboo_2_north": {
+      "textures": "textures/blocks/projectcamel/merch_bamboo_2_north"
+    },
+    "projectcamel:merch_bamboo_2": {
+      "textures": "textures/blocks/projectcamel/merch_bamboo_2"
+    },
+    "projectcamel:merch_bamboo_3_north": {
+      "textures": "textures/blocks/projectcamel/merch_bamboo_3_north"
+    },
+    "projectcamel:merch_bamboo_3_up_down": {
+      "textures": "textures/blocks/projectcamel/merch_bamboo_3_up_down"
+    },
+    "projectcamel:merch_bamboo_3_east_west": {
+      "textures": "textures/blocks/projectcamel/merch_bamboo_3_east_west"
+    },
+    "projectcamel:merch_bamboo_3": {
+      "textures": "textures/blocks/projectcamel/merch_bamboo_3"
+    },
+    "projectcamel:food_warped_1_up_down_north_east_west": {
+      "textures": "textures/blocks/projectcamel/food_warped_1_up_down_north_east_west"
+    },
+    "projectcamel:food_warped_1": {
+      "textures": "textures/blocks/projectcamel/food_warped_1"
+    },
+    "projectcamel:food_warped_3_up_down_north_east_west": {
+      "textures": "textures/blocks/projectcamel/food_warped_3_up_down_north_east_west"
+    },
+    "projectcamel:food_warped_3": {
+      "textures": "textures/blocks/projectcamel/food_warped_3"
+    },
+    "projectcamel:food_warped_2_up_down_north_east_west": {
+      "textures": "textures/blocks/projectcamel/food_warped_2_up_down_north_east_west"
+    },
+    "projectcamel:food_warped_2": {
+      "textures": "textures/blocks/projectcamel/food_warped_2"
+    },
+    "projectcamel:merch_warped_1_up_down_north_east_west": {
+      "textures": "textures/blocks/projectcamel/merch_warped_1_up_down_north_east_west"
+    },
+    "projectcamel:merch_warped_1": {
+      "textures": "textures/blocks/projectcamel/merch_warped_1"
+    },
+    "projectcamel:merch_warped_3_up_down_north_east_west": {
+      "textures": "textures/blocks/projectcamel/merch_warped_3_up_down_north_east_west"
+    },
+    "projectcamel:merch_warped_3": {
+      "textures": "textures/blocks/projectcamel/merch_warped_3"
+    },
+    "projectcamel:merch_warped_2_up_down_north_east_west": {
+      "textures": "textures/blocks/projectcamel/merch_warped_2_up_down_north_east_west"
+    },
+    "projectcamel:merch_warped_2": {
+      "textures": "textures/blocks/projectcamel/merch_warped_2"
+    },
+    "projectcamel:food_spruce_2_up_down_north_east_west": {
+      "textures": "textures/blocks/projectcamel/food_spruce_2_up_down_north_east_west"
+    },
+    "projectcamel:food_spruce_2": {
+      "textures": "textures/blocks/projectcamel/food_spruce_2"
+    },
+    "projectcamel:food_spruce_1_up_down_north_east_west": {
+      "textures": "textures/blocks/projectcamel/food_spruce_1_up_down_north_east_west"
+    },
+    "projectcamel:food_spruce_1": {
+      "textures": "textures/blocks/projectcamel/food_spruce_1"
+    },
+    "projectcamel:merch_spruce_2_up_down_north_east_west": {
+      "textures": "textures/blocks/projectcamel/merch_spruce_2_up_down_north_east_west"
+    },
+    "projectcamel:merch_spruce_2": {
+      "textures": "textures/blocks/projectcamel/merch_spruce_2"
+    },
+    "projectcamel:merch_spruce_1_up_down_north_east_west": {
+      "textures": "textures/blocks/projectcamel/merch_spruce_1_up_down_north_east_west"
+    },
+    "projectcamel:merch_spruce_1": {
+      "textures": "textures/blocks/projectcamel/merch_spruce_1"
+    },
+    "projectcamel:food_spruce_3_up_down_north_east_west": {
+      "textures": "textures/blocks/projectcamel/food_spruce_3_up_down_north_east_west"
+    },
+    "projectcamel:food_spruce_3": {
+      "textures": "textures/blocks/projectcamel/food_spruce_3"
+    },
+    "projectcamel:food_sakura_2_up_down_north_east_west": {
+      "textures": "textures/blocks/projectcamel/food_sakura_2_up_down_north_east_west"
+    },
+    "projectcamel:food_sakura_2": {
+      "textures": "textures/blocks/projectcamel/food_sakura_2"
+    },
+    "projectcamel:food_sakura_1_up_down_north_east_west": {
+      "textures": "textures/blocks/projectcamel/food_sakura_1_up_down_north_east_west"
+    },
+    "projectcamel:food_sakura_1": {
+      "textures": "textures/blocks/projectcamel/food_sakura_1"
+    },
+    "projectcamel:merch_spruce_3_up_down_north_east_west": {
+      "textures": "textures/blocks/projectcamel/merch_spruce_3_up_down_north_east_west"
+    },
+    "projectcamel:merch_spruce_3": {
+      "textures": "textures/blocks/projectcamel/merch_spruce_3"
+    },
+    "projectcamel:food_sakura_3_up_down_north_east_west": {
+      "textures": "textures/blocks/projectcamel/food_sakura_3_up_down_north_east_west"
+    },
+    "projectcamel:food_sakura_3": {
+      "textures": "textures/blocks/projectcamel/food_sakura_3"
+    },
+    "projectcamel:merch_sakura_1_up_down_north_east_west": {
+      "textures": "textures/blocks/projectcamel/merch_sakura_1_up_down_north_east_west"
+    },
+    "projectcamel:merch_sakura_1": {
+      "textures": "textures/blocks/projectcamel/merch_sakura_1"
+    },
+    "projectcamel:merch_sakura_3_up_down_north_east_west": {
+      "textures": "textures/blocks/projectcamel/merch_sakura_3_up_down_north_east_west"
+    },
+    "projectcamel:merch_sakura_3": {
+      "textures": "textures/blocks/projectcamel/merch_sakura_3"
+    },
+    "projectcamel:merch_sakura_2_up_down_north_east_west": {
+      "textures": "textures/blocks/projectcamel/merch_sakura_2_up_down_north_east_west"
+    },
+    "projectcamel:merch_sakura_2": {
+      "textures": "textures/blocks/projectcamel/merch_sakura_2"
+    },
+    "projectcamel:open_oak_trapdoor": {
+      "textures": "textures/blocks/projectcamel/open_oak_trapdoor"
+    },
+    "projectcamel:open_spruce_trapdoor": {
+      "textures": "textures/blocks/projectcamel/open_spruce_trapdoor"
+    },
+    "projectcamel:open_cherry_trapdoor": {
+      "textures": "textures/blocks/projectcamel/open_cherry_trapdoor"
+    },
+    "projectcamel:open_bamboo_trapdoor": {
+      "textures": "textures/blocks/projectcamel/open_bamboo_trapdoor"
+    },
+    "projectcamel:upper_bamboo_trapdoor": {
+      "textures": "textures/blocks/projectcamel/upper_bamboo_trapdoor"
+    },
+    "projectcamel:upper_cherry_trapdoor": {
+      "textures": "textures/blocks/projectcamel/upper_cherry_trapdoor"
+    },
+    "projectcamel:upper_spruce_trapdoor": {
+      "textures": "textures/blocks/projectcamel/upper_spruce_trapdoor"
+    },
+    "projectcamel:upper_oak_trapdoor": {
+      "textures": "textures/blocks/projectcamel/upper_oak_trapdoor"
+    },
+    "projectcamel:closed_dark_oak_gate": {
+      "textures": "textures/blocks/projectcamel/closed_dark_oak_gate"
+    },
+    "projectcamel:potted_cherry_sapling": {
+      "textures": "textures/blocks/projectcamel/potted_cherry_sapling"
+    },
+    "projectcamel:potted_torchflower": {
+      "textures": "textures/blocks/projectcamel/potted_torchflower"
+    },
+    "projectcamel:static_crafting_table_up": {
+      "textures": "textures/blocks/projectcamel/static_crafting_table_up"
+    },
+    "projectcamel:static_crafting_table_east_west": {
+      "textures": "textures/blocks/projectcamel/static_crafting_table_east_west"
+    },
+    "projectcamel:static_crafting_table_down": {
+      "textures": "textures/blocks/projectcamel/static_crafting_table_down"
+    },
+    "projectcamel:static_crafting_table": {
+      "textures": "textures/blocks/projectcamel/static_crafting_table"
+    },
+    "projectcamel:static_barrel_up": {
+      "textures": "textures/blocks/projectcamel/static_barrel_up"
+    },
+    "projectcamel:static_barrel_down": {
+      "textures": "textures/blocks/projectcamel/static_barrel_down"
+    },
+    "projectcamel:static_barrel": {
+      "textures": "textures/blocks/projectcamel/static_barrel"
+    },
+    "projectcamel:potted_cactus": {
+      "textures": "textures/blocks/projectcamel/potted_cactus"
+    },
+    "projectcamel:potted_bamboo": {
+      "textures": "textures/blocks/projectcamel/potted_bamboo"
+    },
+    "projectcamel:lit_glowberry_vines": {
+      "textures": "textures/blocks/projectcamel/lit_glowberry_vines"
+    },
+    "projectcamel:lit_glowberry_vines_bottom": {
+      "textures": "textures/blocks/projectcamel/lit_glowberry_vines_bottom"
+    },
+    "projectcamel:unlit_glowberry_vines_bottom": {
+      "textures": "textures/blocks/projectcamel/unlit_glowberry_vines_bottom"
+    },
+    "projectcamel:unlit_glowberry_vines": {
+      "textures": "textures/blocks/projectcamel/unlit_glowberry_vines"
+    },
+    "projectcamel:mob_head_mania_1": {
+      "textures": "textures/blocks/projectcamel/mob_head_mania_1"
+    },
+    "projectcamel:mob_head_mania_4": {
+      "textures": "textures/blocks/projectcamel/mob_head_mania_4"
+    },
+    "projectcamel:mob_head_mania_2": {
+      "textures": "textures/blocks/projectcamel/mob_head_mania_2"
+    },
+    "projectcamel:mob_head_mania_3": {
+      "textures": "textures/blocks/projectcamel/mob_head_mania_3"
+    },
+    "projectcamel:mob_head_mania_6": {
+      "textures": "textures/blocks/projectcamel/mob_head_mania_6"
+    },
+    "projectcamel:mob_head_mania_5": {
+      "textures": "textures/blocks/projectcamel/mob_head_mania_5"
+    },
+    "projectcamel:sniffer_trash_can": {
+      "textures": "textures/blocks/projectcamel/sniffer_trash_can"
+    },
+    "projectcamel:cherry_trash_can": {
+      "textures": "textures/blocks/projectcamel/cherry_trash_can"
+    },
+    "projectcamel:spruce_trash_can": {
+      "textures": "textures/blocks/projectcamel/spruce_trash_can"
+    },
+    "projectcamel:bamboo_trash_can": {
+      "textures": "textures/blocks/projectcamel/bamboo_trash_can"
+    },
+    "projectcamel:left_spruce_bench": {
+      "textures": "textures/blocks/projectcamel/left_spruce_bench"
+    },
+    "projectcamel:right_spruce_bench": {
+      "textures": "textures/blocks/projectcamel/right_spruce_bench"
+    },
+    "projectcamel:middle_spruce_bench": {
+      "textures": "textures/blocks/projectcamel/middle_spruce_bench"
+    },
+    "projectcamel:fake_noteblock": {
+      "textures": "textures/blocks/projectcamel/fake_noteblock"
+    },
+    "projectcamel:minecart_madness_5": {
+      "textures": "textures/blocks/projectcamel/minecart_madness_5"
+    },
+    "projectcamel:minecart_madness_6": {
+      "textures": "textures/blocks/projectcamel/minecart_madness_6"
+    },
+    "projectcamel:minecart_madness_3": {
+      "textures": "textures/blocks/projectcamel/minecart_madness_3"
+    },
+    "projectcamel:minecart_madness_0": {
+      "textures": "textures/blocks/projectcamel/minecart_madness_0"
+    },
+    "projectcamel:minecart_madness_4": {
+      "textures": "textures/blocks/projectcamel/minecart_madness_4"
+    },
+    "projectcamel:minecart_madness_1": {
+      "textures": "textures/blocks/projectcamel/minecart_madness_1"
+    },
+    "projectcamel:minecart_madness_2": {
+      "textures": "textures/blocks/projectcamel/minecart_madness_2"
+    }
+  }
+}

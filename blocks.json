@@ -1,0 +1,263 @@
+{
+  "projectcamel:stacked_ancient_popcorn": {
+    "sound": "glass"
+  },
+  "projectcamel:ancient_popcorn": {
+    "sound": "glass"
+  },
+  "projectcamel:cherry_tree_boba": {
+    "sound": "itemframe"
+  },
+  "projectcamel:sniffer_plushie": {
+    "sound": "cloth"
+  },
+  "projectcamel:camel_plushie": {
+    "sound": "cloth"
+  },
+  "projectcamel:camel_mask_display": {
+    "sound": "itemframe"
+  },
+  "projectcamel:sniffer_mask_display": {
+    "sound": "itemframe"
+  },
+  "projectcamel:sniffer_hat_display": {
+    "sound": "itemframe"
+  },
+  "projectcamel:camel_hat_display": {
+    "sound": "itemframe"
+  },
+  "projectcamel:cactus_cola": {
+    "sound": "itemframe"
+  },
+  "projectcamel:panda_mask_display": {
+    "sound": "itemframe"
+  },
+  "projectcamel:panda_plush": {
+    "sound": "cloth"
+  },
+  "projectcamel:torchflower_tea": {
+    "sound": "itemframe"
+  },
+  "projectcamel:holo_finish_line": {
+    "sound": "snow"
+  },
+  "projectcamel:cyan_park_banner": {
+    "sound": "cloth"
+  },
+  "projectcamel:yellow_park_banner": {
+    "sound": "cloth"
+  },
+  "projectcamel:magenta_park_banner": {
+    "sound": "cloth"
+  },
+  "projectcamel:orange_park_banner": {
+    "sound": "cloth"
+  },
+  "projectcamel:lime_park_banner": {
+    "sound": "cloth"
+  },
+  "projectcamel:light_blue_park_banner": {
+    "sound": "cloth"
+  },
+  "projectcamel:green_park_banner": {
+    "sound": "cloth"
+  },
+  "projectcamel:brown_park_banner": {
+    "sound": "cloth"
+  },
+  "projectcamel:red_park_banner": {
+    "sound": "cloth"
+  },
+  "projectcamel:pink_park_banner": {
+    "sound": "cloth"
+  },
+  "projectcamel:white_park_banner": {
+    "sound": "cloth"
+  },
+  "projectcamel:blue_park_banner": {
+    "sound": "cloth"
+  },
+  "projectcamel:purple_park_banner": {
+    "sound": "cloth"
+  },
+  "projectcamel:cherry_hat_display": {
+    "sound": "itemframe"
+  },
+  "projectcamel:candy_apples": {
+    "sound": "itemframe"
+  },
+  "projectcamel:sniffer_snout_popsicles": {
+    "sound": "itemframe"
+  },
+  "projectcamel:boba_dispenser": {
+    "sound": "itemframe"
+  },
+  "projectcamel:cactus_dispenser": {
+    "sound": "itemframe"
+  },
+  "projectcamel:torchflower_dispenser": {
+    "sound": "itemframe"
+  },
+  "projectcamel:parkour_finish": {
+    "sound": "wood"
+  },
+  "projectcamel:parkour_start": {
+    "sound": "wood"
+  },
+  "projectcamel:parkour_checkpoint": {
+    "sound": "wood"
+  },
+  "projectcamel:parkour_start_corner": {
+    "sound": "wood"
+  },
+  "projectcamel:parkour_finish_corner": {
+    "sound": "wood"
+  },
+  "projectcamel:parkour_checkpoint_corner": {
+    "sound": "wood"
+  },
+  "projectcamel:food_dark_oak_2": {
+    "sound": "wood"
+  },
+  "projectcamel:food_dark_oak_1": {
+    "sound": "wood"
+  },
+  "projectcamel:food_dark_oak_3": {
+    "sound": "wood"
+  },
+  "projectcamel:merch_dark_oak_2": {
+    "sound": "wood"
+  },
+  "projectcamel:merch_dark_oak_1": {
+    "sound": "wood"
+  },
+  "projectcamel:merch_dark_oak_3": {
+    "sound": "wood"
+  },
+  "projectcamel:food_bamboo_2": {
+    "sound": "wood"
+  },
+  "projectcamel:food_bamboo_1": {
+    "sound": "wood"
+  },
+  "projectcamel:merch_bamboo_1": {
+    "sound": "wood"
+  },
+  "projectcamel:food_bamboo_3": {
+    "sound": "wood"
+  },
+  "projectcamel:merch_bamboo_2": {
+    "sound": "wood"
+  },
+  "projectcamel:merch_bamboo_3": {
+    "sound": "wood"
+  },
+  "projectcamel:food_warped_1": {
+    "sound": "wood"
+  },
+  "projectcamel:food_warped_3": {
+    "sound": "wood"
+  },
+  "projectcamel:food_warped_2": {
+    "sound": "wood"
+  },
+  "projectcamel:merch_warped_1": {
+    "sound": "wood"
+  },
+  "projectcamel:merch_warped_3": {
+    "sound": "wood"
+  },
+  "projectcamel:merch_warped_2": {
+    "sound": "wood"
+  },
+  "projectcamel:food_spruce_2": {
+    "sound": "wood"
+  },
+  "projectcamel:food_spruce_1": {
+    "sound": "wood"
+  },
+  "projectcamel:merch_spruce_2": {
+    "sound": "wood"
+  },
+  "projectcamel:merch_spruce_1": {
+    "sound": "wood"
+  },
+  "projectcamel:food_spruce_3": {
+    "sound": "wood"
+  },
+  "projectcamel:food_sakura_2": {
+    "sound": "wood"
+  },
+  "projectcamel:food_sakura_1": {
+    "sound": "wood"
+  },
+  "projectcamel:merch_spruce_3": {
+    "sound": "wood"
+  },
+  "projectcamel:food_sakura_3": {
+    "sound": "wood"
+  },
+  "projectcamel:merch_sakura_1": {
+    "sound": "wood"
+  },
+  "projectcamel:merch_sakura_3": {
+    "sound": "wood"
+  },
+  "projectcamel:merch_sakura_2": {
+    "sound": "wood"
+  },
+  "projectcamel:open_oak_trapdoor": {
+    "sound": "wood"
+  },
+  "projectcamel:open_spruce_trapdoor": {
+    "sound": "wood"
+  },
+  "projectcamel:open_cherry_trapdoor": {
+    "sound": "wood"
+  },
+  "projectcamel:open_bamboo_trapdoor": {
+    "sound": "wood"
+  },
+  "projectcamel:upper_bamboo_trapdoor": {
+    "sound": "wood"
+  },
+  "projectcamel:upper_cherry_trapdoor": {
+    "sound": "wood"
+  },
+  "projectcamel:upper_spruce_trapdoor": {
+    "sound": "wood"
+  },
+  "projectcamel:upper_oak_trapdoor": {
+    "sound": "wood"
+  },
+  "projectcamel:closed_dark_oak_gate": {
+    "sound": "wood"
+  },
+  "projectcamel:static_crafting_table": {
+    "sound": "wood"
+  },
+  "projectcamel:static_barrel": {
+    "sound": "wood"
+  },
+  "projectcamel:lit_glowberry_vines": {
+    "sound": "grass"
+  },
+  "projectcamel:lit_glowberry_vines_bottom": {
+    "sound": "grass"
+  },
+  "projectcamel:unlit_glowberry_vines_bottom": {
+    "sound": "grass"
+  },
+  "projectcamel:unlit_glowberry_vines": {
+    "sound": "grass"
+  },
+  "projectcamel:left_spruce_bench": {
+    "sound": "wood"
+  },
+  "projectcamel:right_spruce_bench": {
+    "sound": "wood"
+  },
+  "projectcamel:middle_spruce_bench": {
+    "sound": "wood"
+  }
+}

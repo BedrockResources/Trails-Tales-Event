@@ -1,0 +1,28 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "camel:carousel",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/projectcamel/carousel"
+            },
+            "geometry": {
+                "camel": "geometry.projectcamel.carousel.camel",
+                "sniffer": "geometry.projectcamel.carousel.sniffer"
+            },
+            "animations": {
+                "idle": "animation.projectcamel.carousel.idle",
+                "idle_ride": "animation.projectcamel.carousel.idle.ride",
+                "idle_limbs": "animation.projectcamel.carousel.idle.limbs",
+                "idle_animals": "animation.projectcamel.carousel.idle.animals"
+            },
+            "scripts": {
+                "animate": ["idle", "idle_ride", "idle_animals"]
+            },
+            "render_controllers": ["controller.render.projectcamel.carousel"]
+        }
+    }
+}

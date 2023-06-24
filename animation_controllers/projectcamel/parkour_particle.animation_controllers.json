@@ -1,0 +1,28 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.projectcamel.parkour_particle": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "parkour_particle": "query.distance_from_camera <= variable.particle_distance"
+                        }
+                    ]
+                },
+                "parkour_particle": {
+                    "particle_effects": [
+                        {
+                            "effect": "emerald_start"
+                        }
+                    ],
+                    "transitions": [
+                        {
+                            "default": "query.distance_from_camera > variable.particle_distance"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

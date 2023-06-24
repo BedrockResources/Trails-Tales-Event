@@ -1,0 +1,54 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.projectcamel.minigame.collectable.idle": {
+            "loop": true,
+            "bones": {
+                "root": {
+                    "rotation": [0, "-math.mod(query.anim_time * 45, 360)", 0],
+                    "position": [0, "math.cos(query.life_time * 60) * 3", 0]
+                },
+                "bone": {
+                    "rotation": ["math.cos(query.life_time * 75) * 2", 0, "math.cos(query.life_time * 150) * 2"]
+                }
+            }
+        },
+        "animation.projectcamel.minigame.collectable.collect": {
+            "loop": "hold_on_last_frame",
+            "animation_length": 0.2,
+            "bones": {
+                "bone": {
+                    "rotation": {
+                        "0.0": [0, 0, 0],
+                        "0.08": [-47.5, 0, 0],
+                        "0.2": [-142.5, 0, 0]
+                    },
+                    "position": {
+                        "0.0": [0, 0, 0],
+                        "0.2": [0, -4, 0]
+                    },
+                    "scale": {
+                        "0.0": [1, 1, 1],
+                        "0.2": [0, 0, 0]
+                    }
+                }
+            }
+        },
+        "animation.projectcamel.minigame.collectable.spawn": {
+            "loop": "hold_on_last_frame",
+            "animation_length": 0.48,
+            "bones": {
+                "bone": {
+                    "scale": {
+                        "0.0": [0, 0, 0],
+                        "0.08": [0.468, 0.47, 0.47],
+                        "0.16": [1.17, 1.175, 1.175],
+                        "0.24": [0.9125, 0.945, 0.92],
+                        "0.32": [0.9825, 0.989, 0.984],
+                        "0.48": [1, 1, 1]
+                    }
+                }
+            }
+        }
+    }
+}

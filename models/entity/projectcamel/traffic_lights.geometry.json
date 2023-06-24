@@ -1,0 +1,127 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.projectcamel.traffic.lights",
+                "texture_width": 52,
+                "texture_height": 36,
+                "visible_bounds_width": 4,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [0, 1.25, 0]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [0, 15, 0]
+                },
+                {
+                    "name": "body",
+                    "parent": "root",
+                    "pivot": [0, 5, 0],
+                    "cubes": [
+                        {
+                            "origin": [-13, 0, -5],
+                            "size": [26, 10, 10],
+                            "uv": {
+                                "north": { "uv": [0, 0], "uv_size": [26, 10] },
+                                "east": { "uv": [26, 16], "uv_size": [10, 10] },
+                                "south": { "uv": [0, 10], "uv_size": [26, 10] },
+                                "west": { "uv": [26, 16], "uv_size": [10, 10] },
+                                "up": { "uv": [0, 20], "uv_size": [26, 10] },
+                                "down": { "uv": [26, 10], "uv_size": [26, -10] }
+                            }
+                        },
+                        {
+                            "origin": [-3, 10, -3],
+                            "size": [6, 3, 6],
+                            "uv": {
+                                "north": { "uv": [42, 16], "uv_size": [6, 3] },
+                                "east": { "uv": [42, 16], "uv_size": [6, 3] },
+                                "south": { "uv": [42, 16], "uv_size": [6, 3] },
+                                "west": { "uv": [42, 16], "uv_size": [6, 3] },
+                                "up": { "uv": [36, 16], "uv_size": [6, 6] }
+                            }
+                        },
+                        {
+                            "origin": [-1, 13, -1],
+                            "size": [2, 4, 2],
+                            "uv": {
+                                "north": { "uv": [38, 22], "uv_size": [2, 4] },
+                                "east": { "uv": [38, 22], "uv_size": [2, 4] },
+                                "south": { "uv": [38, 22], "uv_size": [2, 4] },
+                                "west": { "uv": [38, 22], "uv_size": [2, 4] },
+                                "up": { "uv": [36, 22], "uv_size": [2, 2] }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "propellor",
+                    "parent": "body",
+                    "pivot": [0, 15, 0],
+                    "cubes": [
+                        {
+                            "origin": [-9, 15, -3],
+                            "size": [18, 0, 6],
+                            "uv": {
+                                "north": { "uv": [0, 0], "uv_size": [18, 0] },
+                                "east": { "uv": [0, 0], "uv_size": [6, 0] },
+                                "south": { "uv": [0, 0], "uv_size": [18, 0] },
+                                "west": { "uv": [0, 0], "uv_size": [6, 0] },
+                                "up": { "uv": [26, 10], "uv_size": [18, 6] }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "lights",
+                    "parent": "body",
+                    "pivot": [0, 5, -3.25]
+                },
+                {
+                    "name": "redLight",
+                    "parent": "lights",
+                    "pivot": [-8, 5, -3.25],
+                    "cubes": [
+                        {
+                            "origin": [-11, 2, -3.25],
+                            "size": [6, 6, 0],
+                            "uv": {
+                                "north": { "uv": [0, 30], "uv_size": [6, 6] }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "amberLight",
+                    "parent": "lights",
+                    "pivot": [0, 5, -3.25],
+                    "cubes": [
+                        {
+                            "origin": [-3, 2, -3.25],
+                            "size": [6, 6, 0],
+                            "uv": {
+                                "north": { "uv": [6, 30], "uv_size": [6, 6] }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "greenLight",
+                    "parent": "lights",
+                    "pivot": [8, 5, -3.25],
+                    "cubes": [
+                        {
+                            "origin": [5, 2, -3.25],
+                            "size": [6, 6, 0],
+                            "uv": {
+                                "north": { "uv": [12, 30], "uv_size": [6, 6] }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

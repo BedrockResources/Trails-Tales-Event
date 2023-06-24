@@ -1,0 +1,18 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "camel:cutout_desert",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/projectcamel/cutout_desert"
+            },
+            "geometry": {
+                "default": "geometry.projectcamel.cutout.desert"
+            },
+            "render_controllers": ["controller.render.default"]
+        }
+    }
+}

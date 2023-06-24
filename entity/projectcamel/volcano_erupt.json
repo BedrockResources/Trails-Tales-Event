@@ -1,0 +1,25 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "camel:volcano_erupt",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/projectcamel/volcano_erupt"
+            },
+            "geometry": {
+                "default": "geometry.projectcamel.volcano.erupt"
+            },
+            "animations": {
+                "start_controller": "controller.animation.projectcamel.traffic_lights",
+                "start": "animation.projectcamel.volcano.erupt"
+            },
+            "scripts": {
+                "animate": ["start_controller"]
+            },
+            "render_controllers": ["controller.render.default"]
+        }
+    }
+}

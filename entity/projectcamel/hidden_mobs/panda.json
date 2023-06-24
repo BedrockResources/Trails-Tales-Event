@@ -1,0 +1,24 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "camel:hidden_mobs_panda",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/projectcamel/hidden_mobs/panda"
+            },
+            "geometry": {
+                "default": "geometry.projectcamel.hidden.mobs.panda"
+            },
+            "animations": {
+                "float": "animation.projectcamel.hidden.mobs.float"
+            },
+            "scripts": {
+                "animate": ["float"]
+            },
+            "render_controllers": ["controller.render.default"]
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "camel:camel_balloon",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/projectcamel/items/camel_balloon"
+            },
+            "geometry": {
+                "default": "geometry.projectcamel.item.balloon.camel"
+            },
+            "animations": {
+                "first_person": "animation.projectcamel.item.balloon.hold.person.first",
+                "third_person": "animation.projectcamel.item.balloon.hold.person.third"
+            },
+            "scripts": {
+                "animate": [
+                    {
+                        "first_person": "context.is_first_person == 1.0"
+                    },
+                    {
+                        "third_person": "context.is_first_person == 0.0"
+                    }
+                ]
+            },
+            "render_controllers": ["controller.render.projectcamel.item.generic"]
+        }
+    }
+}

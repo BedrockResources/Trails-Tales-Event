@@ -1,0 +1,29 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.projectcamel.hot.air.balloon": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "fire": "query.distance_from_camera <= 32"
+                        }
+                    ]
+                },
+                "fire": {
+                    "particle_effects": [
+                        {
+                            "effect": "fire",
+                            "locator": "fire"
+                        }
+                    ],
+                    "transitions": [
+                        {
+                            "default": "query.distance_from_camera > 32"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

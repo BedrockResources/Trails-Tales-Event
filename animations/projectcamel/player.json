@@ -1,0 +1,16 @@
+{
+    "format_version": "1.10.0",
+    "animations": {
+        "animation.player.move.arms" : {
+			"loop" : true,
+			"bones" : {
+				"leftarm" : {
+					"rotation" : [ "variable.tcos0", 0.0, 0.0 ]
+				},
+				"rightarm" : {
+					"rotation" : [ "(!variable.is_paperdoll && query.is_item_name_any('slot.weapon.mainhand', 0, 'camel:camel_balloon', 'camel:sniffer_balloon')) ? -50 : -variable.tcos0", 0.0, 0.0 ]
+				}
+			}
+		}
+    }
+}

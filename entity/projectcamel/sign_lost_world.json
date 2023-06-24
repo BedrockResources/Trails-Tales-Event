@@ -1,0 +1,18 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "camel:sign_lost_world",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/projectcamel/sign_lost_world"
+            },
+            "geometry": {
+                "default": "geometry.projectcamel.sign.lost.world"
+            },
+            "render_controllers": ["controller.render.default"]
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.projectcamel.park.npc": {
+            "arrays": {
+                "textures": {
+                    "Array.skins": [
+                        "Texture.cherry_slim",
+                        "Texture.cherry_wide",
+                        "Texture.desert_slim",
+                        "Texture.desert_wide",
+                        "Texture.neutral_slim",
+                        "Texture.neutral_wide_a",
+                        "Texture.neutral_wide_b",
+                        "Texture.prehistoric_slim_a",
+                        "Texture.prehistoric_slim_b",
+                        "Texture.prehistoric_wide"
+                    ]
+                },
+                "geometries": {
+                    "Array.geometries": [
+                        "Geometry.cherry_slim",
+                        "Geometry.cherry_wide",
+                        "Geometry.desert_slim",
+                        "Geometry.desert_wide",
+                        "Geometry.neutral_slim",
+                        "Geometry.neutral_wide",
+                        "Geometry.neutral_wide",
+                        "Geometry.prehistoric_slim",
+                        "Geometry.prehistoric_slim",
+                        "Geometry.prehistoric_wide"
+                    ]
+                }
+            },
+            "geometry": "Array.geometries[query.variant]",
+            "materials": [{ "*": "Material.default" }],
+            "textures": ["Array.skins[query.variant]"]
+        }
+    }
+}

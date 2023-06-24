@@ -1,0 +1,22 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.projectcamel.minecart.body": {
+            "loop": true,
+            "bones": {
+                "bone": {
+                    "rotation": ["variable.coaster_pitch", 0, 0],
+                    "scale": 1.1
+                }
+            }
+        },
+        "animation.projectcamel.minecart.moving": {
+            "loop": true,
+            "bones": {
+                "cart": {
+                    "rotation": [0, 0, "math.cos(query.anim_time * 100) * 2"]
+                }
+            }
+        }
+    }
+}

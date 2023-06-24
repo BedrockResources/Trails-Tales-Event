@@ -1,0 +1,57 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.projectcamel.item.balloon.hold.person.third": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": ["55 + math.sin(query.anim_time * 20) * 5", 0, "math.cos(query.anim_time * 50) * 5"],
+					"position": [0, 22, 0]
+				},
+				"balloon": {
+					"scale": 0.7
+				}
+			}
+		},
+		"animation.projectcamel.item.balloon.hold.person.first": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [85, 67.5, -45],
+					"position": [5.55483, 31.55641, 2.04646],
+					"scale": 0.8
+				},
+				"balloon": {
+					"scale": 0.7
+				}
+			}
+		},
+		"animation.projectcamel.item.generic.hold.person.first": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [39, -14, -152],
+					"position": [4, 25.5, 7.4]
+				}
+			}
+		},
+		"animation.projectcamel.item.generic.use": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"position": [0, "math.sin(query.anim_time * 700) * 2.5", 0]
+				}
+			}
+		},
+		"animation.projectcamel.item.generic.hold.person.third": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [90, 0, 0],
+					"position": [0, 21, 0],
+					"scale": 0.65
+				}
+			}
+		}
+	}
+}

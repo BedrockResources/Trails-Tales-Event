@@ -1,0 +1,24 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.projectcamel.traffic_lights": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "start": "query.is_tamed"
+                        }
+                    ]
+                },
+                "start": {
+                    "animations": ["start"],
+                    "transitions": [
+                        {
+                            "default": "query.all_animations_finished"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

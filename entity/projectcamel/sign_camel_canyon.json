@@ -1,0 +1,24 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "camel:sign_camel_canyon",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/projectcamel/sign_camel_canyon"
+            },
+            "geometry": {
+                "default": "geometry.projectcamel.sign.camel.canyon"
+            },
+            "animations": {
+                "idle": "animation.projectcamel.sign.camel.canyon.idle"
+            },
+            "scripts": {
+                "animate": ["idle"]
+            },
+            "render_controllers": ["controller.render.default"]
+        }
+    }
+}

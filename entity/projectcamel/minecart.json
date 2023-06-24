@@ -1,0 +1,28 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "camel:minecart",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/projectcamel/minecart"
+            },
+            "geometry": {
+                "default": "geometry.projectcamel.minecart"
+            },
+            "animations": {
+                "body": "animation.projectcamel.minecart.body",
+                "moving": "animation.projectcamel.minecart.moving"
+            },
+            "scripts": {
+                "pre_animation": [
+                    "variable.coaster_pitch = query.head_x_rotation(0) * ((query.distance_from_camera < 3) ? 0.66 : 1);"
+                ],
+                "animate": ["body", "moving"]
+            },
+            "render_controllers": ["controller.render.default"]
+        }
+    }
+}

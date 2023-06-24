@@ -1,0 +1,41 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "camel:park_npc",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "cherry_slim": "textures/entity/projectcamel/park_npc/cherry_slim",
+                "cherry_wide": "textures/entity/projectcamel/park_npc/cherry_wide",
+                "desert_slim": "textures/entity/projectcamel/park_npc/desert_slim",
+                "desert_wide": "textures/entity/projectcamel/park_npc/desert_wide",
+                "neutral_slim": "textures/entity/projectcamel/park_npc/neutral_slim",
+                "neutral_wide_a": "textures/entity/projectcamel/park_npc/neutral_wide_a",
+                "neutral_wide_b": "textures/entity/projectcamel/park_npc/neutral_wide_a",
+                "prehistoric_slim_a": "textures/entity/projectcamel/park_npc/prehistoric_slim_a",
+                "prehistoric_slim_b": "textures/entity/projectcamel/park_npc/prehistoric_slim_b",
+                "prehistoric_wide": "textures/entity/projectcamel/park_npc/prehistoric_wide"
+            },
+            "geometry": {
+                "cherry_slim": "geometry.projectcamel.park.npc.cherry.slim",
+                "cherry_wide": "geometry.projectcamel.park.npc.cherry.wide",
+                "desert_slim": "geometry.projectcamel.park.npc.desert.slim",
+                "desert_wide": "geometry.projectcamel.park.npc.desert.wide",
+                "neutral_slim": "geometry.projectcamel.park.npc.neutral.slim",
+                "neutral_wide": "geometry.projectcamel.park.npc.neutral.wide",
+                "prehistoric_slim": "geometry.projectcamel.park.npc.prehistoric.slim",
+                "prehistoric_wide": "geometry.projectcamel.park.npc.prehistoric.wide"
+            },
+            "scripts": {
+                "animate": ["general", "look_at_target"]
+            },
+            "animations": {
+                "general": "animation.npc.general",
+                "look_at_target": "animation.common.look_at_target"
+            },
+            "render_controllers": ["controller.render.projectcamel.park.npc"]
+        }
+    }
+}

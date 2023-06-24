@@ -1,0 +1,61 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.boat",
+				"texture_width": 128,
+				"texture_height": 64,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "bottom",
+					"pivot": [-4, 0, -20],
+					"rotation": [-90, 0, 0],
+					"cubes": [
+						{"origin": [-14, 10, -49], "size": [28, 20, 4], "uv": [0, 0]},
+						{"origin": [-14, 12, -45], "size": [28, 16, 4], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "front",
+					"pivot": [15, 24, 0],
+					"rotation": [0, 90, 0]
+				},
+				{
+					"name": "back",
+					"pivot": [-15, 24, 0],
+					"rotation": [0, -90, 0]
+				},
+				{
+					"name": "right",
+					"pivot": [0, 24, -9],
+					"rotation": [0, -180, 0]
+				},
+				{
+					"name": "left",
+					"pivot": [0, 24, 9]
+				},
+				{
+					"name": "paddle_left",
+					"pivot": [-2.5, 28, 9],
+					"cubes": [
+						{"origin": [-3.5, 27, 3.5], "size": [2, 2, 18], "uv": [0, 24]},
+						{"origin": [-2.51, 26, 17.5], "size": [1, 6, 7], "uv": [0, 24]}
+					]
+				},
+				{
+					"name": "paddle_right",
+					"pivot": [-2.5, 28, -9],
+					"cubes": [
+						{"origin": [-3.5, 27, -14.5], "size": [2, 2, 18], "uv": [40, 24]},
+						{"origin": [-3.49, 26, -0.5], "size": [1, 6, 7], "uv": [40, 24]}
+					]
+				}
+			]
+		}
+	]
+}

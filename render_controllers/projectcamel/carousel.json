@@ -1,0 +1,19 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.projectcamel.carousel": {
+            "arrays": {
+                "geometries": {
+                    "Array.models": ["Geometry.camel", "Geometry.sniffer"]
+                }
+            },
+            "geometry": "Array.models[query.variant]",
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "textures": ["texture.default"]
+        }
+    }
+}

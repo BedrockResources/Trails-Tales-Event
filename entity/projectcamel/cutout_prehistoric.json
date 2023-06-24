@@ -1,0 +1,18 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "camel:cutout_prehistoric",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/projectcamel/cutout_prehistoric"
+            },
+            "geometry": {
+                "default": "geometry.projectcamel.cutout.prehistoric"
+            },
+            "render_controllers": ["controller.render.default"]
+        }
+    }
+}

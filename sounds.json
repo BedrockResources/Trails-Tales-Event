@@ -1,0 +1,22 @@
+{
+    "entity_sounds": {
+        "entities": {
+            "camel:carousel": {
+                "events": {
+                    "step": {
+                        "sound": "step.cloth",
+                        "volume": 0
+                    }
+                }
+            },
+            "camel:minecart": {
+                "events": {
+                    "step": {
+                        "sound": "step.cloth",
+                        "volume": 0
+                    }
+                }
+            }
+        }
+    }
+}

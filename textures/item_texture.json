@@ -1,0 +1,51 @@
+{
+    "resource_pack_name": "Live Event Assets",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "camel:cherry_tree_boba": {
+            "textures": "textures/items/projectcamel/cherry_tree_boba"
+        },
+        "camel:sniffer_snout_popsicle": {
+            "textures": "textures/items/projectcamel/sniffer_snout_popsicle"
+        },
+        "camel:ancient_popcorn": {
+            "textures": "textures/items/projectcamel/ancient_popcorn"
+        },
+        "camel:camel_hat": {
+            "textures": "textures/items/projectcamel/camel_hat"
+        },
+        "camel:camel_balloon": {
+            "textures": "textures/items/projectcamel/camel_balloon"
+        },
+        "camel:sniffer_hat": {
+            "textures": "textures/items/projectcamel/sniffer_hat"
+        },
+        "camel:sniffer_balloon": {
+            "textures": "textures/items/projectcamel/sniffer_balloon"
+        },
+        "camel:flower_crown": {
+            "textures": "textures/items/projectcamel/flower_crown"
+        },
+        "camel:camel_mask": {
+            "textures": "textures/items/projectcamel/camel_mask"
+        },
+        "camel:sniffer_mask": {
+            "textures": "textures/items/projectcamel/sniffer_mask"
+        },
+        "camel:panda_mask": {
+            "textures": "textures/items/projectcamel/panda_mask"
+        },
+        "camel:candy_apple": {
+            "textures": "textures/items/projectcamel/candy_apple"
+        },
+        "camel:cactus_cola": {
+            "textures": "textures/items/projectcamel/cactus_cola"
+        },
+        "camel:torchflower_tea": {
+            "textures": "textures/items/projectcamel/torchflower_tea"
+        },
+        "camel:activity_leave": {
+            "textures": "textures/items/projectcamel/activity_leave"
+        }
+    }
+}

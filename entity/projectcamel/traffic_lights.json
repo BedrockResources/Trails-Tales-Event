@@ -1,0 +1,27 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "camel:traffic_lights",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "desert": "textures/entity/projectcamel/traffic_lights/desert",
+                "raft": "textures/entity/projectcamel/traffic_lights/raft"
+            },
+            "geometry": {
+                "default": "geometry.projectcamel.traffic.lights"
+            },
+            "animations": {
+                "idle": "animation.projectcamel.traffic.lights.idle",
+                "start_controller": "controller.animation.projectcamel.traffic_lights",
+                "start": "animation.projectcamel.traffic.lights.start"
+            },
+            "scripts": {
+                "animate": ["idle", "start_controller"]
+            },
+            "render_controllers": ["controller.render.projectcamel.traffic.lights"]
+        }
+    }
+}

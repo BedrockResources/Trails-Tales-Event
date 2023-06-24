@@ -1,0 +1,24 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "camel:hidden_mobs_warden",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/projectcamel/hidden_mobs/warden"
+            },
+            "geometry": {
+                "default": "geometry.projectcamel.hidden.mobs.warden"
+            },
+            "animations": {
+                "float": "animation.projectcamel.hidden.mobs.float"
+            },
+            "scripts": {
+                "animate": ["float"]
+            },
+            "render_controllers": ["controller.render.default"]
+        }
+    }
+}

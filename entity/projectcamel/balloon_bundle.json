@@ -1,0 +1,29 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "camel:balloon_bundle",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/projectcamel/balloon_bundle"
+            },
+            "geometry": {
+                "default": "geometry.projectcamel.balloon.bundle"
+            },
+            "animations": {
+                "idle": "animation.projectcamel.balloonbundle.idle",
+                "interact": "animation.projectcamel.balloonbundle.interact",
+                "controller": "controller.animation.projectcamel.balloon.bundle"
+            },
+            "scripts": {
+                "animate": [
+                    "idle",
+                    "controller"
+                ]
+            },
+            "render_controllers": ["controller.render.default"]
+        }
+    }
+}

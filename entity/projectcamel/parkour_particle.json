@@ -1,0 +1,28 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "camel:parkour_particle",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/projectcamel/raft_coin"
+            },
+            "geometry": {
+                "default": "geometry.projectcamel.empty"
+            },
+            "particle_effects": {
+                "emerald_start": "projectcamel:emerald_start"
+            },
+            "animations": {
+                "particle_controller": "controller.animation.projectcamel.parkour_particle"
+            },
+            "scripts": {
+                "initialize": ["variable.particle_distance = 16;"],
+                "animate": ["particle_controller"]
+            },
+            "render_controllers": ["controller.render.default"]
+        }
+    }
+}

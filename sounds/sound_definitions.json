@@ -1,0 +1,343 @@
+{
+    "format_version": "1.14.0",
+    "sound_definitions": {
+        // UI
+        "projectcamel.ui.success": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/ui/success"]
+        },
+        "projectcamel.ui.joined": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/ui/joined"]
+        },
+        "projectcamel.ui.fail": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/ui/fail"]
+        },
+        "projectcamel.ui.purchase": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/ui/purchase"]
+        },
+        "projectcamel.ui.teleport": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/mob/endermen/portal",
+                    "load_on_low_memory": true
+                },
+                "sounds/mob/endermen/portal2"
+            ]
+        },
+        // Parkour
+        "projectcamel.parkour.checkpoint": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/parkour/checkpoint"]
+        },
+        "projectcamel.parkour.finish": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/parkour/finish"]
+        },
+        // Minigame - Generic
+        "projectcamel.minigame.player.finish": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/minigame/player_finish"]
+        },
+        "projectcamel.minigame.point.gained": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/minigame/point_gained"]
+        },
+        "projectcamel.minigame.point.gained.bonus": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/minigame/point_gained_bonus"]
+        },
+        "projectcamel.minigame.finish.countdown": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/minigame/finish_countdown"]
+        },
+        // Digsite
+        "projectcamel.digsite.start": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/digsite/start"]
+        },
+        // Race
+        "projectcamel.race.start": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/race/start"]
+        },
+        "projectcamel.race.speedboost": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/race/speedboost"]
+        },
+        "projectcamel.horn.call.0": {
+            "category": "music",
+            "sounds": ["sounds/item/horn/call0"]
+        },
+        "projectcamel.horn.call.1": {
+            "category": "music",
+            "sounds": ["sounds/item/horn/call1"]
+        },
+        "projectcamel.horn.call.2": {
+            "category": "music",
+            "sounds": ["sounds/item/horn/call2"]
+        },
+
+        // Blocks
+        "projectcamel.block.trashcan": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/projectcamel/block/trashcan"
+                },
+                {
+                    "name": "sounds/projectcamel/block/trashcan",
+                    "pitch": 1.2
+                }
+            ]
+        },
+
+        // Volcano
+        "projectcamel.volcano.erupt": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/projectcamel/volcano/erupt",
+                    "stream": true
+                }
+            ]
+        },
+
+        "projectcamel.hot.air.balloon.launch": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/projectcamel/hot_air_balloon/launch",
+                    "stream": true
+                }
+            ]
+        },
+
+        // Minecart
+        "projectcamel.minecart.loop": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/minecart/loop"]
+        },
+        "projectcamel.minecart.land": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/projectcamel/minecart/land",
+                    "pitch": 1.0,
+                    "volume": 0.8
+                },
+                {
+                    "name": "sounds/projectcamel/minecart/land",
+                    "pitch": 1.05,
+                    "volume": 0.8
+                },
+                {
+                    "name": "sounds/projectcamel/minecart/land",
+                    "pitch": 0.95,
+                    "volume": 0.8
+                },
+                {
+                    "name": "sounds/projectcamel/minecart/land",
+                    "pitch": 0.9,
+                    "volume": 0.8
+                }
+            ]
+        },
+        "projectcamel.minecart.launch": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/minecart/launch"]
+        },
+        "projectcamel.minecart.pass.high": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/minecart/pass_high"]
+        },
+        "projectcamel.minecart.pass.low": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/minecart/pass_low"]
+        },
+
+        // Vanilla music
+        "projectcamel.music.main_loop": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/music/game/bromeliad",
+                    "stream": true,
+                    "volume": 0.2
+                },
+                {
+                    "name": "sounds/music/game/crescent_dunes",
+                    "stream": true,
+                    "volume": 0.2
+                },
+                {
+                    "name": "sounds/music/game/echo_in_the_wind",
+                    "stream": true,
+                    "volume": 0.2,
+                    "weight": 3
+                }
+            ]
+        },
+
+        // Additional Minecraft Earth Sounds
+        "projectcamel.earth.minigame.begin": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/earth/minigame_begin"]
+        },
+        "projectcamel.earth.minigame.fail": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/earth/minigame_fail"]
+        },
+        "projectcamel.earth.minigame.good.action.1": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/earth/minigame_good_action_1"]
+        },
+        "projectcamel.earth.minigame.good.action.2": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/earth/minigame_good_action_2"]
+        },
+        "projectcamel.earth.minigame.join.queue": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/earth/minigame_join_queue"]
+        },
+        "projectcamel.earth.minigame.success": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/earth/minigame_success"]
+        },
+        "projectcamel.earth.minigame.woosh": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/earth/minigame_woosh"]
+        },
+        "projectcamel.earth.parkour.checkpoint.1": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/earth/parkour_checkpoint_1"]
+        },
+        "projectcamel.earth.parkour.checkpoint.2": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/earth/parkour_checkpoint_2"]
+        },
+        "projectcamel.earth.parkour.checkpoint.3": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/earth/parkour_checkpoint_3"]
+        },
+        "projectcamel.earth.parkour.checkpoint.4": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/earth/parkour_checkpoint_4"]
+        },
+        "projectcamel.earth.parkour.checkpoint.5": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/earth/parkour_checkpoint_5"]
+        },
+        "projectcamel.earth.parkour.fall.1": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/earth/parkour_fall_1"]
+        },
+        "projectcamel.earth.parkour.fall.2": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/earth/parkour_fall_2"]
+        },
+        "projectcamel.earth.parkour.fall.3": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/earth/parkour_fall_3"]
+        },
+        "projectcamel.earth.parkour.fall.4": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/earth/parkour_fall_4"]
+        },
+        "projectcamel.earth.parkour.fall.5": {
+            "category": "music",
+            "sounds": ["sounds/projectcamel/earth/parkour_fall_5"]
+        },
+
+        // Mob head sounds in non-hostile category
+        "projectcamel.mob.creeper.say": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/mob/creeper/say1",
+                    "volume": 2.5
+                },
+                {
+                    "name": "sounds/mob/creeper/say2",
+                    "volume": 2.5
+                },
+                {
+                    "name": "sounds/mob/creeper/say3",
+                    "volume": 2.5
+                },
+                {
+                    "name": "sounds/mob/creeper/say4",
+                    "volume": 2.5
+                }
+            ]
+        },
+        "projectcamel.mob.piglin.ambient": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/piglin/idle1",
+                "sounds/mob/piglin/idle2",
+                "sounds/mob/piglin/idle3",
+                "sounds/mob/piglin/idle4",
+                "sounds/mob/piglin/idle5"
+            ]
+        },
+        "projectcamel.mob.enderdragon.growl": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/enderdragon/growl1",
+                "sounds/mob/enderdragon/growl2",
+                "sounds/mob/enderdragon/growl3",
+                "sounds/mob/enderdragon/growl4"
+            ]
+        },
+        "projectcamel.mob.skeleton.say": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/mob/skeleton/say1",
+                    "volume": 3
+                },
+                {
+                    "name": "sounds/mob/skeleton/say2",
+                    "volume": 3
+                },
+                {
+                    "name": "sounds/mob/skeleton/say3",
+                    "volume": 3
+                }
+            ]
+        },
+        "projectcamel.mob.zombie.say": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/mob/zombie/say1",
+                    "volume": 2
+                },
+                {
+                    "name": "sounds/mob/zombie/say2",
+                    "volume": 2
+                },
+                {
+                    "name": "sounds/mob/zombie/say3",
+                    "volume": 2
+                }
+            ]
+        },
+
+        // Remove cave sounds
+        "ambient.cave": {
+            "category": "ambient",
+            "sounds": [
+                {
+                    "name": "sounds/cave/cave1",
+                    "stream": true,
+                    "volume": 0.0
+                }
+            ]
+        }
+    }
+}

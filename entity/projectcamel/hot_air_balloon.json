@@ -1,0 +1,28 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "camel:hot_air_balloon",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/projectcamel/hot_air_balloon"
+            },
+            "geometry": {
+                "default": "geometry.projectcamel.hotairballoon"
+            },
+            "animations": {
+                "controller": "controller.animation.projectcamel.hot.air.balloon",
+                "pose": "animation.projectcamel.hotairballoon.pose"
+            },
+            "particle_effects": {
+                "fire": "projectcamel:hot_air_balloon_fire"
+            },
+            "scripts": {
+                "animate": ["pose", "controller"]
+            },
+            "render_controllers": ["controller.render.default"]
+        }
+    }
+}
